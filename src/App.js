@@ -42,7 +42,7 @@ function fetchData() {
 
 
 function getData() {
-  axios.get('http://localhost:3001/', {
+  axios.get('https://hm26rbmjf3.execute-api.us-east-2.amazonaws.com/prod/data', {
     params: {
       data: input
     },
