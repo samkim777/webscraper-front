@@ -75,11 +75,8 @@ function getData() {
       <button className="button" onClick={() => getData()}>Search</button>
                                                         </div>
 
-         <div className="container">  <div className="head">
-         {/* <h1>Product</h1>
-         <h1>Rating</h1>
-         <h1>Price</h1>
-         <h1>Link</h1> */}
+         <div className="container"> <div className="head">
+         <a href="https://github.com/samkim777/Webscraper" target="blank">Github repo</a>
          </div>
          {fetchData()}</div>
   </div>

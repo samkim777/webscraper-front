@@ -36,11 +36,12 @@
   align-items: center; /* Center vertically */
   border-radius:10px;
 }
-.head h1{
-  font-size: 12px;
-  text-align: left;
-  text-indent: 3%;
-  padding-right: 20vw;
+a {
+  color: black;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size:17px;
 }
 
 
