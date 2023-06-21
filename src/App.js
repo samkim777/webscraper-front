@@ -42,7 +42,7 @@ function fetchData() {
 
 
 function getData() {
-  axios.get('https://hm26rbmjf3.execute-api.us-east-2.amazonaws.com/prod/data', {
+  axios.get('https://webscrapeserver.onrender.com', {
     params: {
       data: input
     },
