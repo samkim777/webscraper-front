@@ -42,7 +42,7 @@ function fetchData() {
 
 
 function getData() {
-  axios.get('https://webscrapeserver.onrender.com', {
+  axios.get('https://peaceful-harbor-30640-c66b9dd35e27.herokuapp.com/https://webscraper-front.onrender.com', {
     params: {
       data: input
     },
