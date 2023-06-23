@@ -46,7 +46,14 @@ function getData() {
     params: {
       data: input
     },
-
+    headers: {
+      'Origin': 'https://webscraper-front.onrender.com', 
+      'X-Requested-With': 'XMLHttpRequest',
+      'Access-Control-Allow-Origin': '*', // Allow requests from any origin
+      'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS', // Allow common HTTP methods
+      'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept' // Allow common request headers
+      
+    },
     crossdomain: true // pass the crossdomain property as part of the second parameter
   })
   .then(res => {
