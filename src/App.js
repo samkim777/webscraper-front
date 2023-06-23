@@ -46,9 +46,7 @@ function getData() {
     params: {
       data: input
     },
-    headers: {
-      'X-Requested-With': 'XMLHttpRequest' // or replace with the appropriate value
-    },
+
     crossdomain: true // pass the crossdomain property as part of the second parameter
   })
   .then(res => {
