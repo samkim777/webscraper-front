@@ -48,7 +48,7 @@ function getData() {
     },
     headers: { 
       'X-Requested-With': 'XMLHttpRequest',
-      'Access-Control-Allow-Origin': 'https://webscrapeserver.onrender.com', // Allow requests from any origin
+      'Access-Control-Allow-Origin': '*', // Allow requests from any origin
       'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS', // Allow common HTTP methods
       'Access-Control-Allow-Headers': 'X-Requested-With, Content-Type' // Allow common request headers
       
