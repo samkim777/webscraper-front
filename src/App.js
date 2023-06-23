@@ -47,7 +47,6 @@ function getData() {
       data: input
     },
     headers: {
-      'Origin': 'https://webscraper-front.onrender.com', 
       'X-Requested-With': 'XMLHttpRequest' // or replace with the appropriate value
     },
     crossdomain: true // pass the crossdomain property as part of the second parameter
