@@ -51,9 +51,7 @@ function getData() {
       'Access-Control-Allow-Origin': '*', // Allow requests from any origin
       'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS', // Allow common HTTP methods
       'Access-Control-Allow-Headers': 'X-Requested-With, Content-Type' // Allow common request headers
-      
     },
-    crossdomain: true // pass the crossdomain property as part of the second parameter
   })
   .then(res => {
     console.log(res);
