@@ -42,15 +42,9 @@ function fetchData() {
 
 
 function getData() {
-  axios.get('https://peaceful-harbor-30640-c66b9dd35e27.herokuapp.com/https://webscrapeserver.onrender.com', {
+  axios.get('https://webscrapeserver.onrender.com', {
     params: {
       data: input
-    },
-    headers: { 
-      'X-Requested-With': 'XMLHttpRequest',
-      'Access-Control-Allow-Origin': '*', // Allow requests from any origin
-      'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS', // Allow common HTTP methods
-      'Access-Control-Allow-Headers': 'X-Requested-With, Content-Type' // Allow common request headers
     },
   })
   .then(res => {
